@@ -4,7 +4,7 @@ document.body.style.fontFamily = "sans-serif";
 
 document.getElementById("nickname").innerHTML = "Stevie";
 document.getElementById("favorites").innerHTML = "Cold weather";
-document.getElementById("hometown").innerHTML = "Muncie, In";
+document.getElementById("hometown").innerHTML = "Muncie, IN";
 
 /* Extra Credit for loop */
 var x = document.getElementsByTagName('li');
