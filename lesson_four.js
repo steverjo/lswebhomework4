@@ -16,10 +16,13 @@ function webhw4() {
   };
 };
 /* Extra Credit Image */
+var z = document.createElement('img');
 function myPhoto() {
-  document.getElementById("me").src = "me.jpg";
-  document.getElementById("me").style.display = "block";
+  z.src = "me.jpg";
+  document.body.appendChild(z);
+  z.style.display = "block";
+  z.style.width = "50%";
 };
 function myPhotoGone() {
-  document.getElementById('me').style.display = "none";
+  z.style.display = "none";
 };
